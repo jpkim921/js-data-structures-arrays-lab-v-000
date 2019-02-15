@@ -1,4 +1,5 @@
 // Write your solution here!
+<<<<<<< HEAD
 const drivers = ["Milo", "Otis", "Garfield"];
 
 
@@ -28,3 +29,15 @@ function removeLastDriver(){
 function removeFirstDriver(){
   return drivers.slice(1)
 }
+=======
+
+const drivers = ["Milo", "Otis", "Garfield"];
+
+let destructivelyAppendDriver = (name) => {
+  return drivers.push(name)
+}
+
+let destructivelyPrependDriver = (name) => {
+  return drivers.unshift(name)
+}
+>>>>>>> c5537e13c0852a2e217565241ba58ebdece51fc5
